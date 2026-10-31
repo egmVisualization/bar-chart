@@ -64,7 +64,7 @@ const sphere = { type: "Sphere" }        // the globe's outline
 // ===== 2. Chart settings (safe to change) =====
 const width = 560
 const barHeight = 28
-const margin = { top: 10, right: 40, bottom: 10, left: 120 }
+const margin = { top: 10, right: 40, bottom: 10, left: 140 }
 const height = margin.top + margin.bottom + data.length * barHeight
 
 const GLOBE_SIZE = 340       // width and height of the globe area, in pixels
