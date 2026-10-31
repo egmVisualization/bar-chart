@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+  --ia-navy: #19314e;
+  --ia-teal: #006a91;
+  --ia-black: #1d242b;
+  --pale-blue: #d8e1e5;
+  --slate: #78909c;
+  --white: #ffffff;
+
+  --font-heading: "Merriweather", Georgia, serif;
+  --font-body: "Montserrat", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ia-black);
+  background: var(--white);
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--ia-navy);
+}
+
+a {
+  color: var(--ia-teal);
+}
